@@ -24,3 +24,6 @@ python exportResult.py
 * `utils.py` defines modules to build the network: RSA/DSC block, loss function, etc.
 * In `config.py` users can change configurations including I/O paths, filter size and number for the first layer of the network, and traning hyperparameters. More explanations are given in the file.
 * The images for training should locate in `train_path/X`, and the corresponding ground truth should locate in `train_path/Y`.
+
+## License
+This tool is available under the GNU General Public License (GPL) (https://www.gnu.org/licenses/gpl-3.0.en.html) and the LGPL (https://www.gnu.org/licenses/lgpl-3.0.en.html).
